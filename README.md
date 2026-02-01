@@ -286,7 +286,7 @@ nsbehackathon/
 
 ## 👥 Contributors
 
-Built for the NSBE Hackathon 2026
+Built for the NSBE Hackathon 2026: 
 Bhoomi Patni
 Nikita Amin
 
