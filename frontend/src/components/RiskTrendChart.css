@@ -1,0 +1,29 @@
+.risk-trend-chart {
+    background: #2a2a2a;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 16px;
+    border: 1px solid #444;
+}
+
+.trend-title {
+    margin: 0 0 12px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+}
+
+.trend-placeholder {
+    text-align: center;
+    color: #aaa;
+    font-size: 13px;
+    margin: 40px 0;
+}
+
+.trend-error {
+    text-align: center;
+    color: #e74c3c;
+    font-size: 12px;
+    margin: 20px 0;
+}

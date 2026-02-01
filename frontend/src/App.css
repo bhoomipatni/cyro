@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+.app {
+    font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.app-header {
+    background: #ffffff;
+    color: white;
+    padding: 0px 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    text-align: center;
+}
+
+.app-logo {
+    margin-top: 4px;
+    height: 140px;
+    width: auto;
+    margin-bottom: 0px;
+}
+
+.app-header h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+    letter-spacing: -2px;
+}
+
+.app-header .subtitle {
+    font-size: 16px;
+    opacity: 0.85;
+    margin: 0;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .app-header h1 {
+        font-size: 20px;
+    }
+
+    .app-header .subtitle {
+        font-size: 12px;
+    }
+
+    .disclaimer {
+        font-size: 11px;
+    }
+}
